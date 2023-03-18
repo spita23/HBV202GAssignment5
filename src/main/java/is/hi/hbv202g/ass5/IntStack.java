@@ -55,7 +55,7 @@ public class IntStack {
     // TODO: Add isEmpty() method
 
     /**
-     * Push on int on the stack.
+     * Push an int on the stack.
      * @param element The int to be pushed on the stack
      * @throws ArrayIndexOutOfBoundsException If the stack was already full
      */
