@@ -18,8 +18,8 @@ public class IntStack {
     private int[] theStack;
 
     /**
-     * Location in theStack array, where next push
-     * will insert. 0 means: stack is empty
+     * Location in theStack array, where next push will insert.
+     * 0 means: stack is empty
      */
     private int nextPushLocation; // .
 
@@ -56,8 +56,8 @@ public class IntStack {
 
     /**
      * Push an int on the stack.
-     * @param element The int to be pushed on the stack
-     * @throws ArrayIndexOutOfBoundsException If the stack was already full
+     * @param element the int to be pushed on the stack
+     * @throws ArrayIndexOutOfBoundsException if the stack was already full
      */
     public void push(int element) throws ArrayIndexOutOfBoundsException {
         theStack[nextPushLocation++] = element;
@@ -65,8 +65,8 @@ public class IntStack {
 
     /**
      * Pops an int from the stack
-     * @return The poppsed int
-     * @throws ArrayIndexOutOfBoundsException If the stack was already empty
+     * @return the popped int
+     * @throws ArrayIndexOutOfBoundsException if the stack was already empty
      */
     public int pop() throws ArrayIndexOutOfBoundsException {
         return theStack[--nextPushLocation];
