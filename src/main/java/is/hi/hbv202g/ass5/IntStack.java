@@ -24,7 +24,7 @@ public class IntStack {
     private int nextPushLocation; // .
 
     /**
-     * Construct an empty stack.
+     * Constructs an empty stack.
      */
     public IntStack() {
         theStack = new int[theCapacity];
@@ -32,7 +32,7 @@ public class IntStack {
     }
 
     /**
-     * Return the capacity of the stack.
+     * Returns the capacity of the stack.
      * @return the capacity of the stack
      */
     public int getCapacity() {
@@ -55,7 +55,7 @@ public class IntStack {
     // TODO: Add isEmpty() method
 
     /**
-     * Push an int on the stack.
+     * Pushes an int on the stack.
      * @param element the int to be pushed on the stack
      * @throws ArrayIndexOutOfBoundsException if the stack was already full
      */
