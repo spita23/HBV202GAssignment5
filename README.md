@@ -27,4 +27,4 @@ Maven:
 
 [License](LICENSE)
 
-[Markdown](src/site/markdown/markdown)
+[Markdown](src/site/markdown/markdown.md)
